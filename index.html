@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XD Magazine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #111;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #FF6600;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Oswald', sans-serif;
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      margin: 5px 0;
+      font-size: 1.2em;
+    }
+
+    .subtopics {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #333;
+      color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      font-family: 'Oswald', sans-serif;
+      margin: 15px 0;
+      color: #FF6600;
+    }
+
+    .card p {
+      padding: 0 15px;
+      font-size: 1em;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>XD Magazine</h1>
+  <p>"Think Outside the Site"</p>
+</header>
+
+<section class="subtopics">
+  <div class="card">
+    <img src="https://www.facebook.com/TheIwasSawiProject/logo.jpg" alt="Iwas Sawi Project">
+    <h2>IWAS SAWI PROJECT</h2>
+    <p>Deep narratives about human connections and emotions in Filipino culture.</p>
+  </div>
+  <div class="card">
+    <img src="https://en.wikipedia.org/wiki/Alamat_(TV_program)" alt="Alamat">
+    <h2>ALAM-AT</h2>
+    <p>Stories of history and culture that have shaped the Filipino identity.</p>
+  </div>
+  <div class="card">
+    <img src="https://www.shutterstock.com/image-photo/astronaut-outer-space-over-planet-earth-622754741" alt="Outer Space">
+    <h2>OUTER SPACE</h2>
+    <p>Discover humor, lightheartedness, and the cosmic creativity of Filipino life.</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 XD Magazine | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
